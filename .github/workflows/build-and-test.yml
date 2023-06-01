@@ -25,6 +25,8 @@ jobs:
 
   test:
 
+    needs: build
+
     runs-on: ubuntu-22.04
 
     timeout-minutes: 10
