@@ -29,6 +29,7 @@ jobs:
 
     timeout-minutes: 10
 
+    #override global env variable
     env:
       NAME: Planet
 
